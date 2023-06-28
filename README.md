@@ -1,1 +1,47 @@
-# SistTarefas
+
+
+# API de um Sistema de Tarefas
+
+Essa API foi desenvolvida para facilitar o CRUD (Create, Read, Update, Delete) de um Sistema de Tarefas, com ela você consegue realizar operações como adicionar, remover e atualizar usuários. Além de conseguir buscar por todos os usuários ou até buscar um usuário específico.
+
+ <img src="https://lh3.googleusercontent.com/sGmfCsjKUfZL_8Vl-auIyGKjFAe6Jyoo0C98Sw9gYxFTXBtppykZT6PZ4KxeEtYGJTNHbQUqv9NutkSVRcKN0p-UKdAAdL11-wf8UYUsZZwcNlOpxTF_SlOupg48FOWcHPPb24b8u94iugMIpneOhHpPr3WWF92wCYeG9DQN4VS0PRifo1EMb3h64ZKH1CNpWYOaCo7K0s-bH2BGZnj6piBjTC0H3bfH0rZmReihxbWePAoJo8nOW_aELYcCxRrAopXs04FIArkuIsftcrrv-XxUPKCEAwR_WMwkstlRTsP_x6AXIKwZAjYrDdRYZI4HUktnGNcdFDIKyD1ZA2CRVbvkZFKkvxVX0lzj_GM24Zt1-4yIwLbtRGR5ukbHEHCa92oyE_6WM99Hf9fX34qvWVnOBlS3Aj3AUUsD-xI_qEC4BFmS6aRxrBtaFbH7IxE4appNY0qKi19QWxhuHX6ui9QimjC508LHvxuKl6LQNWVMlvuQKJpHXZ7N_20V6oT3xapX_YCUZprI0YOwWslrBrbaapiCq1CdLxsSH8-Mv58d5EQMhiMwMczUqIf2EYy-EjEmfARq3ecEBARhz702qTL3pxX_YdDfDlfBLeY-0WXiD6oYj3KoQoygMGpj9DX6-t4vkYjkfyc8NNElGvdw5xEw1m784hN_ID7lo_0FbYv_F5iYg5q6bazPjc6phrB0sdUCVZcTQE2USXm-5UpvIDYZG2Q0WvCJQ4_RQ6LLSQU1Gi56veVpXjHWrOz9kpZQEl56Y3g8E0kzMo9IXSeCoeQZwL7xVablrjuAdy0LhAdpsp5rshptDcaoOlUv_giDmG9yrlPOMRf3Sgg2J48_ViHKm44f4gMs3NF_BsTcIrfjZjTLrvAGGqZOshaFIlq7ZnIJwBllgmMe-w5PW5fmuSk_JoR_YbqlghuoDtE6-NZqmoMeZm17X1EYvJtPR9AK3wUCYVHpi9e8cWBRFYA24CS_oVtRA4jjWhAYsEkpXjD9j7CihWM=w479-h316-s-no?authuser=0"> 
+
+
+## Recursos Principais
+
+- Permite criar, visualizar, atualizar e excluir usuários.
+
+
+- Permite os usuários possuírem um ID e digitar o seu email. 
+
+
+## Configuração
+
+1. Copie o HTTPS da API de Sistema de Tarefas do GitHub:
+   
+   ```shell
+   https://github.com/luizhenfm/SistTarefas.git
+   ```
+   <br>
+
+2. Abra o Visual Studio e selecione "Clone a repository"
+
+<img src="https://lh3.googleusercontent.com/a4lIGuHaIyVIgzK23jVZwzHr_LqnWGVZl30b2SijnBmHcXd-KZLIbl3wOfJfmXaB3XOprBHrgRPpSMWgWRJZsoXBPiECzMRQd50UvvehrZBSX67Pu0FRtOXX46ZFi0xuQzaszwDOxlSYjSwCAOzGIVeZ9uOKDSLCESC0IFiVbLallMMe3lW54FdwBsj7XvTA3VE2pnw8dCGuZCP220mo0d5gW8VdmFH1sCE3QZAzlh4LUf5QN-iBEku7Q67kH-UIMGVyM83-9PVX-HQZLQdTUaqx9s0wBFN7--9lOPxr28xIyLdDKWChxHhOPRYnGbJdwI43po6UWzPlCSOQnIT9-864ISXHXnziG4DqaEOPR12hw2_UvMGlnUDhsOGSRRudNQNvnPglKT13mgWjYYUxm3F122XC8NLbFYdg4-BM1lpCeV47vkPokFUpmI3mTwi6cTqqVOx-ExfaJyHyiZpAfq_LFEqDhf2xfBe2pEYAH5G7zD-dGfiIEPBK5bqktYUCpPjjbOnQjxzzaa7urbcR07CNt9owYZ7ozMRj6p2D0w3DVrXVfZM5KBFZJsOMGmmn1Leh-1pm7sgElOStlKXJnYAoYEqUkMqBt-6EbArpT7bmuy14a7mFDhkFJJXBaDTIOf85XS0Xwi5RQ8G7S-4Lrh5tX7ACnWWKwtAh1gR4sSLTGWG22J2VgAmaqUSXjNTd8jqkblqoucvkDHZnEq5NVK6fxRy-pPoWBFvtL6h4DEm_fQUpMYyPyUvmY7P2nGTraCgaiYDBhn0H3cWxgJ1j_3I0ZelQ9R_Vswc1g-_Nrl_28dKeURIo0_pz64yC85HsIF9KwUBCKR2KesdnKVuK07VHMlKOHp5llDxuHTjAbjNpCsJdK2g9ZVsqycdXPyTS9753dUqiC-ncfb5FDHvKpE6oilErP2X7-Ow_CJMEQrcKjFv2ZNjr4tKqls1XIAGWjwTGuSDJ-xQ4ZG3mvxfaWXcwtyf9XuZJD8cpJthulenPkCiJirU=w451-h159-s-no?authuser=0" width="314px">
+
+<br>
+
+3. Cole a URL e aperte em "Clone":
+   
+<img src="https://lh3.googleusercontent.com/qixF3MhNo4b5gMfPT_u6VXhJNvXS52OO_twHvxCGU1_4SarsgYxJ2OjrX1IBdZpkNpprsH6akS6ftcEiiJq1kCgelUaX0OINnCCXIf402CPhiDFvtEOlqydhGgKxdk8pYnpeIYkuB0Nw72s2dOI5ECbd5p4cK5Jc8R3geejq6hNOSYxgpgj8rtFmFch5XIVeiAPZVZ37rqwVvdINOin2SMGEkINDAqj2VBhDIJhCpNxVdZWitiLzt6o42XwvJpV0WWjqu7oAZEZi-IHcDh9S6DxsslOiIh_InT5nCHnqtz8kGXhsZx3YnxtxinSYjJzD1JHHst-Pr1HX84F2QD2T7l9xQ--iAaAZgWrGr2Px8JDMS92kNzzh1-Hsi4UXsqKwbGIOQv9ZKK_rkv906UUieZyI2SgPWB7fj1WBd1pnd5CqD5YcTL5NBlkmGUF4DzyvZeNGMSNH0XsP2-4iUfv8hWVBrwlWpHU2HwiJhnb-Qtk3AroA1m4TUC94qe2FHgDngIVm2xIhfi8jErZ_f7vD7CSea6jvnyG8ondbofFnWtCNJa3sUWIhdLKzen8HfwDLV9USoKpclEc4__orv0Vj_2kgilC5V88tncT5SjVO2_-SNH53pMXu6LnXZNsUcRMm7JYmoyDnhbye5alGRHn4LyFcEOwjfe9a1hH5N7Jssv8Y7aZSuYkH3G8Zrpt9yiVz71r5cjvu5ltXraFEBqY3L9KyeSoX4N1vu2ju3oPRmuSPWSwRwtUXon-tmQMFDAbjuxCar8yzhkB5xsudWOOFs1ofetljCWdGHis1yWX0etfp_QW6ElXGufiqTRAvcQDBPZEfAfDyOqwO38aEvP3AdoQEniZ7pqDEBu0g0VdFPP6TBnSd9mf79V0AMD7RQNhVvzW36tjz63Y9rvF2P9WZRtxkFIhmlg15je7lSArGqHE0zCnbnnWglh0l93BeU0H4CkULQD3yYHnT0IRw2TYczK0xjCKkTe1ZvQwRwHeYazSlnnRFr-U=w734-h236-s-no?authuser=0" width="380px">
+
+<br>
+
+4. Execute a API.
+
+## Documentação da API
+
+A documentação da API está disponível neste [Wiki do projeto](https://github.com/luizhenfm/SistTarefas). Lá você encontrará informações detalhadas sobre os endpoints disponíveis, bem como exemplos de requisições e respostas.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema, tiver sugestões ou quiser adicionar novos recursos, sinta-se à vontade para abrir uma [issue](https://github.com/luizhenfm/SistTarefas/issues) ou enviar um [pull request](https://github.com/luizhenfm/SistTarefas/pulls).
